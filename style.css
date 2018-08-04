@@ -1,21 +1,25 @@
 .point {
 	position:fixed;
-	width:8px;
-	height:8px;
-	border-radius:100%;
-	background-color:red;
-	text-alight:right;
-	text-indent:10px;
+	width:50px;
+	height:50px;
+	background-image: url(https://thumbs.gfycat.com/WarpedWellwornDutchsmoushond-max-14mb.gif);
+ background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center center;
 }
 .personage {
 	position:fixed;
 	top:0;
 	left:0;
-	width:50px;
+	width:80px;
 	height:auto;
 }
 body {
 	background-color: black;
+  background-image: url(https://image.shutterstock.com/image-photo/football-field-soccer-texture-background-260nw-521672467.jpg);
+  background-repeat: no-repeat;
+  background-size: 1300px;
+background-position: right top;
 	color:white;
 	font-family:Arial;
 	width:100%;
@@ -24,11 +28,16 @@ body {
 	font-size: 10px;
 	text-align:right;
 }
-button { font-size: 20px; padding: 5px 10px; }
+button { font-size: 20px; 
+  padding: 5px 10px;
+  border: groove 5px green;
+  border-radius: 30%
+ }
 nav {
 	position:fixed;
 	bottom:0;
 	right:0;
+  
 }
 nav > #demo {
 	display: inline-block;
